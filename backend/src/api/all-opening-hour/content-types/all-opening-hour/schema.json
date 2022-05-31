@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "all_opening_hours",
+  "info": {
+    "singularName": "all-opening-hour",
+    "pluralName": "all-opening-hours",
+    "displayName": "AllOpeningHour",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "openingTimes": {
+      "displayName": "openingTimes",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.opening-times",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

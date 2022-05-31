@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_accordions",
+  "info": {
+    "displayName": "Accordion",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "accordion_data": {
+      "displayName": "accordion-data",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.accordion-data"
+    },
+    "title": {
+      "type": "string"
+    },
+    "background_color": {
+      "type": "string"
+    }
+  }
+}

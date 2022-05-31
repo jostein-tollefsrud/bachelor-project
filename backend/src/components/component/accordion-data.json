@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_accordion_data",
+  "info": {
+    "displayName": "accordion-data",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "head": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

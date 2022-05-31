@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_all_news_events_lists",
+  "info": {
+    "displayName": "all_news_events_list",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Events",
+        "News"
+      ]
+    },
+    "background_color": {
+      "type": "string"
+    }
+  }
+}

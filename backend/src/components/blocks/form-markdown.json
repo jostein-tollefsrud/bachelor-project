@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_form_markdowns",
+  "info": {
+    "displayName": "FormMarkdown",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Booking",
+        "Contact",
+        "JobApplication"
+      ],
+      "required": true
+    }
+  }
+}

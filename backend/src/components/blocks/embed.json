@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_embeds",
+  "info": {
+    "displayName": "Embed",
+    "icon": "compress"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

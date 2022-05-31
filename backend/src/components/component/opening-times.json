@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_component_opening_times",
+  "info": {
+    "displayName": "openingTimes",
+    "icon": "hourglass-end",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "enumeration",
+      "enum": [
+        "Mandag",
+        "Tirsdag",
+        "Onsdag",
+        "Torsdag",
+        "Fredag",
+        "Lørdag",
+        "Søndag",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "required": true
+    },
+    "time": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

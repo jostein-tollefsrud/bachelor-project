@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_highlighted_flex_lists",
+  "info": {
+    "displayName": "HighlightedFlexList",
+    "icon": "arrows-alt-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "background_color": {
+      "type": "string"
+    },
+    "font_color": {
+      "type": "string"
+    },
+    "InfoCard": {
+      "displayName": "InfoCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.info-card"
+    }
+  }
+}

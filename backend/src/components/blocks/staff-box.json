@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_staff_boxes",
+  "info": {
+    "displayName": "StaffBox",
+    "icon": "people-carry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_component_employee_cards",
+  "info": {
+    "displayName": "employeeCard",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "profilePicture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "mobileNumber": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

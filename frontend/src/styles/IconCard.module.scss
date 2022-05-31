@@ -1,0 +1,40 @@
+.cardTitle {
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.iconCardBackground {
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+.description {
+  display: inline-block;
+  max-width: 27ch;
+}
+
+.link {
+  display: block;
+  margin-top: 10px;
+}
+
+.link_btn {
+  color: white;
+  background-color: #3e562d;
+  border-radius: 5px;
+  padding: 0.5em 1.5em;
+  font-weight: 600;
+}
+
+.link_normal {
+  color: #0d23e1;
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}

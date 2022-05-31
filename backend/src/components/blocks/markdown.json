@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_markdowns",
+  "info": {
+    "displayName": "markdown",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": false
+    },
+    "background_color": {
+      "type": "string"
+    },
+    "font_color": {
+      "type": "string"
+    }
+  }
+}

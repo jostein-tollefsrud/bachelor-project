@@ -1,0 +1,54 @@
+const path = require('path');
+require('dotenv').config();
+
+// This file sets a custom webpack configuration to use your Next.js app
+// with Sentry.
+// https://nextjs.org/docs/api-reference/next.config.js/introduction
+// https://docs.sentry.io/platforms/javascript/guides/nextjs/
+
+const { withSentryConfig } = require('@sentry/nextjs');
+
+const moduleExports = {
+  env: {
+    API_URL: process.env.API_URL,
+    PANELBEAR_SITE_ID: process.env.PANELBEAR_SITE_ID,
+    BACHERLORHUSETSENDGRID: process.env.BACHERLORHUSETSENDGRID,
+  },
+
+  publicRuntimeConfig: {
+    API_URL: process.env.API_URL,
+  },
+
+  reactStrictMode: true,
+
+  i18n: {
+    locales: ['nb', 'en'],
+    defaultLocale: 'nb',
+  },
+
+  images: {
+    domains: ['localhost', '127.0.0.1', '165.232.82.164'],
+  },
+
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
+};
+
+const sentryWebpackPluginOptions = {
+  // Additional config options for the Sentry Webpack plugin. Keep in mind that
+  // the following options are set automatically, and overriding them is not
+  // recommended:
+  //   release, url, org, project, authToken, configFile, stripPrefix,
+  //   urlPrefix, include, ignore
+
+  silent: true, // Suppresses all logs
+  // For all available options, see:
+  // https://github.com/getsentry/sentry-webpack-plugin#options.
+};
+
+// Make sure adding Sentry options is the last code to run before exporting, to
+// ensure that your source maps include changes from all other Webpack plugins
+module.exports = withSentryConfig(moduleExports, sentryWebpackPluginOptions);
+
+// '127.0.0.1'

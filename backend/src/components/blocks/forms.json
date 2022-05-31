@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_forms",
+  "info": {
+    "displayName": "forms",
+    "icon": "th-list"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Booking",
+        "Contact",
+        "JobApplication"
+      ]
+    }
+  }
+}

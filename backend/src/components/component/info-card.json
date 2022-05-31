@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_component_info_cards",
+  "info": {
+    "displayName": "InfoCard",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "isTransparent": {
+      "type": "boolean",
+      "default": false
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.link"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

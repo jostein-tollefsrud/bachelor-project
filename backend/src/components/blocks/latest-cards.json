@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_layout_latest_cards",
+  "info": {
+    "displayName": "latestCards",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TypeOfCards": {
+      "type": "enumeration",
+      "enum": [
+        "LatestEvents",
+        "LatestNews"
+      ],
+      "default": "LatestEvents",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": false,
+      "component": "component.link"
+    },
+    "background_color": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.listContainer {
+  display: flex;
+  margin-top: 0.5em;
+  gap: 2em;
+}
+
+.singleListContainer {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .listContainer {
+    justify-content: space-between;
+  }
+}

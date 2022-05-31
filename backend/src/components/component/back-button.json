@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_back_buttons",
+  "info": {
+    "displayName": "BackButton",
+    "icon": "angle-left"
+  },
+  "options": {},
+  "attributes": {
+    "haveBackButton": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
